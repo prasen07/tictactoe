@@ -1,0 +1,45 @@
+
+body{
+  background-image: url(images/pattern.png);
+}
+
+#container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+  }
+  #container #sidebar_wrap {
+    	width: 35%;
+    	height: 100%;
+    	float: left;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(255, 255, 255, 0.85);
+    }
+  #container #main {
+		width: 65%;
+		height: 100%;
+		background-color: rgba(255,255,255);
+		/*background-size: 300px;*/
+		float: left;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+    
+    }
+    .row{
+      display:inline-block;
+      position:static;
+    }
+    .cell{
+      background-color:green;
+      width: 200px;
+      height:200px;
+      margin: 10px;
+      font-size: 100px;
+      text: #00ffff;
+      text-align: center;
+      line-height: 200px;
+    }
